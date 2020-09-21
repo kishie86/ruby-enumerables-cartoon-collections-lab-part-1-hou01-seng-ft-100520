@@ -9,7 +9,8 @@ end
 
 def list_dwarves(array)
   total = 0
-  array.each_with_index {
+  array.each_with_index do |num|
+    
      
   # Use `each_with_index` to enumerate over the provided array
   #
